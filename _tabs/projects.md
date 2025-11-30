@@ -1,6 +1,6 @@
 ---
-title: Projects
-icon: fas fa-laptop-code
+title:"Projects"
+icon: "fas fa-laptop-code"
 order: 2
 ---
 
