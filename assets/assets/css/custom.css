@@ -1,0 +1,41 @@
+/* ================================
+   Categories page – card layout
+   ================================ */
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  border-radius: 16px;
+  padding: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+}
+
+.category-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.category-desc {
+  opacity: 0.8;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.category-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
