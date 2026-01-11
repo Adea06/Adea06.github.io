@@ -1,4 +1,80 @@
 ---
-layout: home
-# Index page
+layout: default
 ---
+
+<style>
+  html { scroll-behavior: smooth; }
+
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1rem; }
+  .section { padding: 4rem 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+
+  /* optional: tiny top nav inside the page (not sidebar) */
+  .topnav {
+    position: sticky; top: 0; z-index: 5;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .topnav a { margin-right: 1rem; font-weight: 700; text-decoration: none; }
+</style>
+
+<div class="topnav">
+  <div class="wrap" style="padding: 0.9rem 1rem;">
+    <a href="#projects">Projects</a>
+    <a href="#python">Python</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <h1>Aini Aden</h1>
+    <p>MSc Data Science — Python • SQL • Visualisation • ML</p>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p>Featured work across Python, analytics and visualisation.</p>
+
+    <div class="categories-grid">
+      <div class="category-card">
+        <div class="category-title">⭐ Python Data Foundations</div>
+        <div class="category-desc">Cleaning, EDA, plotting in Jupyter.</div>
+        <a class="category-link" href="/assets/python/Aini_Aden_Python_Data_Foundations.html">Open →</a>
+      </div>
+
+      <!-- duplicate cards for your other projects -->
+    </div>
+  </div>
+</section>
+
+<section id="python" class="section">
+  <div class="wrap">
+    <h2>Python</h2>
+    <p>Notebook-based portfolio projects.</p>
+    <!-- more cards or links -->
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python (Pandas, NumPy), Jupyter</li>
+      <li>EDA, cleaning, visualisation</li>
+      <li>SQL basics</li>
+      <li>Machine learning fundamentals</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ainiaden4@gmail.com">ainiaden4@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Adea06">github.com/Adea06</a></p>
+  </div>
+</section>
